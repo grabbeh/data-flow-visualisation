@@ -11,3 +11,16 @@ Steps to development
 3. Create forms to facilitate removal, deletion, editing of nodes/links
 4. Allow users to update/edit by manipulating links/nodes directly
 5. Allow association of information with the nodes
+
+```
+{
+  "nodes": [
+    {"id": "Helix", "group": 1},
+    {"id": "EFT", "group": 2}
+  ],
+  "links": [
+    {"source": "Helix", "target": "EFT", "value": 1}
+  ]
+}
+
+```
